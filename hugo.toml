@@ -60,7 +60,16 @@ languageName ="English"
 weight = 1
 [languages.en.params]
 title = "GraXpert"
-description = "A Docsy example site"
+description = "A fast and easy way to remove gradients"
+
+[languages.de]
+languageName ="Deutsch"
+contentDir = "content/de"
+[languages.de.params]
+title = "GraXpert"
+description = "Eine schnelle und einfache Möglichkeit Gradienten zu entfernen"
+time_format_default = "02.01.2006"
+time_format_blog = "02.01.2006"
 
 # [languages.no]
 # languageName ="Norsk"

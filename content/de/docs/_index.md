@@ -1,10 +1,10 @@
 ---
-title: Documentation
-linkTitle: Docs
+title: Dokumentation
+linkTitle: Doku
 menu: {main: {weight: 20}}
 weight: 20
 ---
 
 {{% pageinfo %}}
-Welcome to GraXpert's documentation!
+Willkommen zu GraXpert's Dokumentation!
 {{% /pageinfo %}}

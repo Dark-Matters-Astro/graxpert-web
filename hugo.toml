@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "GraXpert"
+title = ""
 
 # Language settings
 contentDir = "content/en"
@@ -52,6 +52,7 @@ quality = 75
 anchor = "smart"
 
 # Language configuration
+defaultContentLanguage = 'en'
 
 [languages]
 [languages.en]
@@ -70,24 +71,6 @@ title = "GraXpert"
 description = "Eine schnelle und einfache Möglichkeit Gradienten zu entfernen"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
-
-# [languages.no]
-# languageName ="Norsk"
-# contentDir = "content/no"
-# [languages.no.params]
-# title = "GraXpert"
-# description = "Docsy er operativsystem for skyen"
-# time_format_default = "02.01.2006"
-# time_format_blog = "02.01.2006"
-# 
-# [languages.fa]
-# languageName ="فارسی"
-# contentDir = "content/fa"
-# [languages.fa.params]
-# title = "اسناد گلدی"
-# description = "یک نمونه برای پوسته داکسی"
-# time_format_default = "2006.01.02"
-# time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]

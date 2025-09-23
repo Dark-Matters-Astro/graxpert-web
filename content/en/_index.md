@@ -46,7 +46,7 @@ Learn about GraXpert on [YouTube](https://www.youtube.com/@astrophotocologne/sea
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
+{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/Steffenhir/GraXpert/" %}}
 We accept [Pull Requests](https://github.com/Steffenhir/GraXpert/pulls) on **GitHub**.
 New contributors are always welcome!
 {{% /blocks/feature %}}

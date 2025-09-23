@@ -47,7 +47,7 @@ Lerne GraXpert bei [YouTube](https://www.youtube.com/@astrophotocologne/search?q
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Eure Beiträge sind willkommen!" url="https://github.com/google/docsy-example" %}}
+{{% blocks/feature icon="fab fa-github" title="Eure Beiträge sind willkommen!" url="https://github.com/Steffenhir/GraXpert/" %}}
 Wir akzeptieren [Pull Requests](https://github.com/Steffenhir/GraXpert/pulls) bei **GitHub**.
 Neue Mitwirkende sind immer willkommen!
 {{% /blocks/feature %}}

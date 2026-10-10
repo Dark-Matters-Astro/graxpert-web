@@ -7,7 +7,7 @@ weight: 2
 TODO
 {{% /pageinfo %}}
 
-Die aktuellste Version von GraXpert ist immer unter folgendem Link zu finden: [Aktuelles GraXpert Release bei Github](https://github.com/Steffenhir/GraXpert/releases/latest).
+Die aktuellste Version von GraXpert ist immer unter folgendem Link zu finden: [Aktuelles GraXpert Release bei Github](https://github.com/Dark-Matters-Astro/GraXpert/releases/latest).
 
 Folgende Betriebssysteme werden unterstützt:
 * Windows 10

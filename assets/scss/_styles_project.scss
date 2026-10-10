@@ -1,0 +1,8 @@
+// Classic cover navbar: fully transparent over the cover image until the page
+// is scrolled (Docsy's JS removes .td-navbar-transparent on scroll).
+@include media-breakpoint-up(md) {
+  .td-navbar.td-navbar-cover.td-navbar-transparent {
+    --td-navbar-bg-color: transparent;
+    --td-navbar-backdrop-filter: none;
+  }
+}

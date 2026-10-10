@@ -1,20 +1,17 @@
 {
-  "name": "docsy-example-site",
+  "name": "graxpert-web",
   "version": "0.8.0",
-  "version.next": "0.8.1-dev.0-unreleased",
-  "description": "Example site that uses Docsy theme for technical documentation.",
-  "repository": "github:google/docsy-example",
-  "homepage": "https://example.docsy.dev",
-  "author": "Docsy Authors",
-  "license": "Apache-2.0",
-  "bugs": "https://github.com/google/docsy-example/issues",
-  "spelling": "cSpell:ignore HTMLTEST precheck postbuild -",
+  "description": "Website of GraXpert, built with Hugo and the Docsy theme.",
+  "repository": "github:Dark-Matters-Astro/graxpert-web",
+  "homepage": "https://graxpert.com",
+  "author": "GraXpert Development Team",
+  "license": "MIT",
+  "bugs": "https://github.com/Dark-Matters-Astro/graxpert-web/issues",
   "scripts": {
     "_build": "npm run _hugo-dev --",
     "_check:links": "echo IMPLEMENTATION PENDING for check-links; echo",
     "_hugo": "hugo --cleanDestinationDir",
     "_hugo-dev": "npm run _hugo -- -e dev -DFE",
-    "_local": "npx cross-env HUGO_MODULE_WORKSPACE=docsy.work",
     "_serve": "npm run _hugo-dev -- --minify serve",
     "build:preview": "npm run _hugo-dev -- --minify --baseURL \"${DEPLOY_PRIME_URL:-/}\"",
     "build:production": "npm run _hugo -- --minify",
@@ -22,7 +19,6 @@
     "check:links:all": "HTMLTEST_ARGS= npm run _check:links",
     "check:links": "npm run _check:links",
     "clean": "rm -Rf public/* resources",
-    "local": "npm run _local -- npm run",
     "make:public": "git init -b main public",
     "precheck:links:all": "npm run build",
     "precheck:links": "npm run build",
@@ -30,13 +26,17 @@
     "postbuild:production": "npm run _check:links",
     "serve": "npm run _serve",
     "test": "npm run check:links",
-    "update:pkg:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",
+    "update:pkg:dep": "npm install --save-dev --save-exact sass-embedded@latest",
     "update:pkg:hugo": "npm install --save-dev --save-exact hugo-extended@latest"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "cross-env": "^7.0.3",
-    "hugo-extended": "0.125.2",
-    "postcss-cli": "^11.0.0"
+    "hugo-extended": "0.167.0",
+    "sass-embedded": "1.105.1"
+  },
+  "workspaces": [
+    "packages/hugoautogen"
+  ],
+  "allowScripts": {
+    "hugo-extended": true
   }
 }

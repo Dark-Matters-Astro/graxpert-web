@@ -4,3 +4,23 @@ Add styles or override variables from the theme here.
 
 */
 
+// Docsy <= 0.16 color palette. Newer Docsy releases default to Bootstrap's
+// colors, so pin the classic palette to keep the site's look.
+$primary: #30638e;
+$secondary: #ffa630;
+$success: #3772ff;
+$info: #c0e0de;
+$warning: #ed6a5a;
+$danger: #ed6a5a;
+$light: #d3f3ee;
+$dark: #403f4c;
+
+// Classic navbar: solid primary background.
+$td-navbar-bg-color: $primary;
+
+// Classic font: Open Sans from Google Fonts.
+$td-enable-google-fonts: true;
+
+// Classic links: Bootstrap blue, no underline.
+$link-color: #0d6efd;
+$link-decoration: none;

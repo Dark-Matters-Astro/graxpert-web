@@ -7,18 +7,19 @@ title: GraXpert
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 </br>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Steffenhir/GraXpert/releases/latest/download/graxpert-windows-amd64.msi">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Dark-Matters-Astro/GraXpert/releases/latest/download/GraXpert-amd64.msi">
   <i class="fab fa-windows ms-2"></i> Windows AMD64 <i class="fas fa-arrow-alt-circle-down ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Steffenhir/GraXpert/releases/latest/download/graxpert-macos-arm64.dmg">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Dark-Matters-Astro/GraXpert/releases/latest/download/GraXpert-macos-arm64.dmg">
   <i class="fa-brands fa-apple ms-2"></i> macOS ARM64 <i class="fas fa-arrow-alt-circle-down ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Steffenhir/GraXpert/releases/latest/download/graxpert-macos-amd64.dmg">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Dark-Matters-Astro/GraXpert/releases/latest/download/GraXpert-macos-x86_64.dmg">
   <i class="fa-brands fa-apple ms-2"></i> macOS AMD64 <i class="fas fa-arrow-alt-circle-down ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Steffenhir/GraXpert/releases/latest/download/graxpert-linux-amd64.zip">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/Dark-Matters-Astro/GraXpert/releases/latest/download/GraXpert-linux.zip">
   <i class="fab fa-linux ms-2"></i> Linux AMD64 <i class="fas fa-arrow-alt-circle-down ms-2"></i>
 </a>
+<br>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
@@ -46,8 +47,8 @@ Learn about GraXpert on [YouTube](https://www.youtube.com/@astrophotocologne/sea
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/Steffenhir/GraXpert/" %}}
-We accept [Pull Requests](https://github.com/Steffenhir/GraXpert/pulls) on **GitHub**.
+{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/Dark-Matters-Astro/GraXpert/" %}}
+We accept [Pull Requests](https://github.com/Dark-Matters-Astro/GraXpert/pulls) on **GitHub**.
 New contributors are always welcome!
 {{% /blocks/feature %}}
 

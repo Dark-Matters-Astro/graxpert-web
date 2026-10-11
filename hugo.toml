@@ -48,15 +48,16 @@ blog = "/:section/:year/:month/:day/:slug/"
 # Image processing configuration.
 [imaging]
 resampleFilter = "CatmullRom"
-quality = 75
 anchor = "smart"
+[imaging.jpeg]
+quality = 75
+[imaging.webp]
+quality = 75
 
 # Language configuration
-defaultContentLanguage = 'en'
-
 [languages]
 [languages.en]
-languageName ="English"
+label ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
@@ -64,7 +65,7 @@ title = "GraXpert"
 description = "A fast and easy way to remove gradients"
 
 [languages.de]
-languageName ="Deutsch"
+label ="Deutsch"
 contentDir = "content/de"
 [languages.de.params]
 title = "GraXpert"
@@ -118,7 +119,7 @@ url_latest_version = "https://example.com"
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/Dark-Matters-Astro/graxpert-web"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/Steffenhir/GraXpert"
+github_project_repo = "https://github.com/Dark-Matters-Astro/GraXpert"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -138,10 +139,12 @@ prism_syntax_highlighting = false
 
 # User interface configuration
 [params.ui]
+# Dark navbar theme: light text on the primary-colored navbar
+navbar_theme = "dark"
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
-# Set to true to disable the About link in the site footer
-footer_about_disable = false
+# Set to false to hide the About link in the site footer
+footer_about_enable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
@@ -182,18 +185,16 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/Steffenhir/GraXpert"
+  url = "https://github.com/Dark-Matters-Astro/GraXpert"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 
 # hugo module configuration
 
 [module]
-  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  # workspace = "docsy.work"
   [module.hugoVersion]
     extended = true
-    min = "0.110.0"
+    min = "0.160.1"
   [[module.imports]]
-    path = "github.com/google/docsy"
+    path = "github.com/docsy/docsy/theme"
     disable = false

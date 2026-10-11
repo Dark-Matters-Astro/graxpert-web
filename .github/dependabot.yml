@@ -6,9 +6,13 @@ updates:
     interval: daily
     time: '20:00'
   open-pull-requests-limit: 10
-- package-ecosystem: bundler
+# Docsy theme (Hugo module). After merging an update, run `hugo mod npm pack`
+# and `npm install`, then commit packages/hugoautogen.
+- package-ecosystem: gomod
   directory: "/"
   schedule:
-    interval: daily
-    time: '20:00'
-  open-pull-requests-limit: 10
+    interval: weekly
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly

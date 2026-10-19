@@ -30,7 +30,7 @@
     "update:pkg:hugo": "npm install --save-dev --save-exact hugo-extended@latest"
   },
   "devDependencies": {
-    "hugo-extended": "0.167.0",
+    "hugo-extended": "0.168.0",
     "sass-embedded": "1.105.1"
   },
   "workspaces": [

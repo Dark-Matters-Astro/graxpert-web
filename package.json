@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "hugo-extended": "0.167.0",
-    "sass-embedded": "1.105.1"
+    "sass-embedded": "1.106.1"
   },
   "workspaces": [
     "packages/hugoautogen"
